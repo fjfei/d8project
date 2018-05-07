@@ -1,15 +1,17 @@
 composer create-project drupal-composer/drupal-project:8.x-dev d8demo --stability dev --no-interaction
+---- 开发示例环境
 
-
+cd d8demo
 composer require drupal/admin_toolbar drupal/devel
 
 composer require drupal/examples drupal/coder
 
-composer require drupal/group drupal/profile  drupal/inline_entity_form  drupal/address
+composer require drupal/group drupal/profile 
+composer require drupal/inline_entity_form  drupal/address
 
-composer require drupal/eck:dev-1.x
+composer require drupal/eck
 
-
+composer require drupal/dynamic_entity_reference drupal/token drupal/entity_reference_revisions
 
 ===
 

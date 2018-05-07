@@ -13,7 +13,8 @@ composer require drupal/eck
 
 composer require drupal/dynamic_entity_reference drupal/token drupal/entity_reference_revisions
 
-===
+===  zip -ry d8demo.zip d8demo/
+
 
 composer require drupal/admin_toolbar drupal/devel
 composer require drupal/config_split drupal/config_update drupal/features

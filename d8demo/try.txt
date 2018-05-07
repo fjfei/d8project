@@ -1,0 +1,18 @@
+composer create-project drupal-composer/drupal-project:8.x-dev d8demo --stability dev --no-interaction
+
+
+composer require drupal/admin_toolbar drupal/devel
+
+composer require drupal/examples drupal/coder
+
+composer require drupal/group drupal/profile  drupal/inline_entity_form  drupal/address
+
+composer require drupal/eck:dev-1.x
+
+
+
+===
+
+composer require drupal/admin_toolbar drupal/devel
+composer require drupal/config_split drupal/config_update drupal/features
+composer require drupal/csv_serialization drupal/migrate_source_csv drupal/migrate_tools 

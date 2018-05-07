@@ -1,0 +1,12 @@
+composer create-project drupal-composer/drupal-project:8.x-dev d8config --stability dev --no-interaction
+---- config ≤‚ ‘
+
+cd d8config
+composer require drupal/admin_toolbar drupal/devel
+composer require drupal/config_split drupal/config_update drupal/features
+
+
+composer require drupal/config_tools drupal/config_sync drupal/config_merge  drupal/config_distro
+
+
+composer require drupal/config_share drupal/config_actions_provider drupal/config_override

@@ -6,7 +6,47 @@ cd d8sauth
 composer require drupal/admin_toolbar drupal/devel
 composer require drupal/config_split drupal/config_update drupal/features
 
+
+
+composer require 'drupal/social_api:^2.0' 'drupal/social_auth:^2.0'
+composer require drupal/social_post
+composer require 'drupal/social_post_twitter:^2.0'
+
+
+
+
+composer require drupal/social_auth_twitter drupal/social_auth_github drupal/social_auth_google drupal/social_auth_linkedin
+Using version ^1.0@beta for drupal/social_auth_twitter
+Using version ^2.0@beta for drupal/social_auth_github
+Using version ^1.0 for drupal/social_auth_google
+Using version ^2.0@beta for drupal/social_auth_linkedin
+
+
+composer require  drupal/social_auth_github drupal/social_auth_linkedin
+composer require 'drupal/social_auth_twitter:^2.0' 'drupal/social_auth_google:^2.0'
+
+   //1.x  social_auth_drupal
+composer require drupal/social_auth_drupal drupal/social_auth_microsoft drupal/social_auth_wechat
+
+    
+
+
+
+
+	
+	
+	
+	
+
+drupal/social_api                     1.1.0              Harmonizes social networking services in Drupal
+drupal/social_auth                    1.0.0              Allows login using different social networking services
+drupal/social_post                    1.0.0-alpha1       Allows posting content to different social networks automatically
+drupal/social_post_twitter            1.0.0-beta1
+
+
+1.x
 composer require drupal/social_auth drupal/social_post_twitter
 
 composer require drupal/social_auth_twitter drupal/social_auth_github drupal/social_auth_google drupal/social_auth_linkedin
-composer require drupal/social_auth_drupal  drupal/social_auth_github composer require  drupal/social_auth_microsoft drupal/social_auth_wechat
+  
+

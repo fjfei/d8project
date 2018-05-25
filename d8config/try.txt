@@ -10,3 +10,5 @@ composer require drupal/config_tools drupal/config_sync drupal/config_merge  dru
 
 
 composer require drupal/config_share drupal/config_actions_provider drupal/config_override
+
+nimbus  compatible

@@ -1,0 +1,12 @@
+composer create-project drupal-composer/drupal-project:8.x-dev d8sauth --stability dev --no-interaction
+---- social-api auth测试
+
+cd d8sauth 
+
+composer require drupal/admin_toolbar drupal/devel
+composer require drupal/config_split drupal/config_update drupal/features
+
+composer require drupal/social_auth drupal/social_post_twitter
+
+composer require drupal/social_auth_twitter drupal/social_auth_github drupal/social_auth_google drupal/social_auth_linkedin
+composer require drupal/social_auth_drupal  drupal/social_auth_github composer require  drupal/social_auth_microsoft drupal/social_auth_wechat

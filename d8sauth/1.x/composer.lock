@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df61b4bc541f3d50f72d3287f9fc5161",
+    "content-hash": "33a75f01e62f7f10d63dc9a184eae77f",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -214,58 +214,6 @@
             ],
             "description": "Drupal code generator",
             "time": "2018-04-25T17:35:50+00:00"
-        },
-        {
-            "name": "chrishemmings/oauth2-drupal",
-            "version": "2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chrishemmings/oauth2-drupal.git",
-                "reference": "438a728c7ac02f8793a1d9a6030c7cfe19f0e8a4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/chrishemmings/oauth2-drupal/zipball/438a728c7ac02f8793a1d9a6030c7cfe19f0e8a4",
-                "reference": "438a728c7ac02f8793a1d9a6030c7cfe19f0e8a4",
-                "shasum": ""
-            },
-            "require": {
-                "league/oauth2-client": "^2.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ChrisHemmings\\OAuth2\\Client\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Chris Hemmings",
-                    "email": "chris@hemmin.gs"
-                }
-            ],
-            "description": "Drupal OAuth2-Server Client Provider for The PHP League OAuth2-Client",
-            "keywords": [
-                "Authentication",
-                "SSO",
-                "authorization",
-                "drupal",
-                "identity",
-                "idp",
-                "oauth",
-                "oauth2",
-                "single sign on"
-            ],
-            "time": "2017-03-03T14:16:54+00:00"
         },
         {
             "name": "composer/installers",
@@ -2369,33 +2317,32 @@
         },
         {
             "name": "drupal/social_api",
-            "version": "2.0.0-beta4",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/social_api",
-                "reference": "8.x-2.0-beta4"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_api-8.x-2.0-beta4.zip",
-                "reference": "8.x-2.0-beta4",
-                "shasum": "ff0da3506f242ae326fe6606c6517cc45c8976f2"
+                "url": "https://ftp.drupal.org/files/projects/social_api-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "bbbefa42a4e0c2c90fe47075203facc2e9cf97c9"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "league/oauth2-client": "~2.0"
+                "drupal/core": "~8.0"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-beta4",
-                    "datestamp": "1519320184",
+                    "version": "8.x-1.1",
+                    "datestamp": "1501779544",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2410,9 +2357,8 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "Himansh Dixit (himanshu-dixit)",
-                    "homepage": "https://www.drupal.org/user/3510098",
-                    "email": "hudixt@gmail.com"
+                    "name": "denutkarsh",
+                    "homepage": "https://www.drupal.org/user/3510098"
                 },
                 {
                     "name": "e0ipso",
@@ -2436,50 +2382,48 @@
         },
         {
             "name": "drupal/social_auth",
-            "version": "2.0.0-beta4",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/social_auth",
-                "reference": "8.x-2.0-beta4"
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth-8.x-2.0-beta4.zip",
-                "reference": "8.x-2.0-beta4",
-                "shasum": "4eb07ab075d8a9af695b7f75056f341cce3879c4"
+                "url": "https://ftp.drupal.org/files/projects/social_auth-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "7e71c07a2d6ccaefd313d654de121126a9bea730"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "drupal/social_api": "^2"
+                "drupal/social_api": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-beta4",
-                    "datestamp": "1524016745",
+                    "version": "8.x-1.0",
+                    "datestamp": "1501779244",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
-                    "name": "Getulio Valentin Sánchez (gvso)",
-                    "homepage": "https://www.drupal.org/user/3510098",
-                    "email": "valentin2507@gmail.com"
+                    "name": "denutkarsh",
+                    "homepage": "https://www.drupal.org/user/3510098"
                 },
                 {
-                    "name": "Himansh Dixit (himanshu-dixit)",
-                    "homepage": "https://www.drupal.org/user/550110",
-                    "email": "hudixt@gmail.com"
+                    "name": "e0ipso",
+                    "homepage": "https://www.drupal.org/user/550110"
                 },
                 {
                     "name": "gvso",
@@ -2490,28 +2434,24 @@
                     "homepage": "https://www.drupal.org/user/3513954"
                 }
             ],
-            "description": "Social Auth ",
+            "description": "Allows login using different social networking services",
             "homepage": "https://www.drupal.org/project/social_auth",
-            "keywords": [
-                "Drupal"
-            ],
             "support": {
-                "source": "http://cgit.drupalcode.org/social_auth",
-                "issues": "https://www.drupal.org/project/issues/social_auth"
+                "source": "http://cgit.drupalcode.org/social_auth"
             }
         },
         {
-            "name": "drupal/social_auth_drupal",
+            "name": "drupal/social_auth_github",
             "version": "dev-1.x",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/social_auth_drupal",
-                "reference": "c8781cef0fb9abc7009944f1d7ab5f842bfe3611"
+                "url": "https://git.drupal.org/project/social_auth_github",
+                "reference": "4afe00724289e6f127ee6c0db3d215a7518bbdd6"
             },
             "require": {
-                "chrishemmings/oauth2-drupal": "^2.0",
                 "drupal/core": "~8.0",
-                "drupal/social_auth": "^2"
+                "drupal/social_auth": "*",
+                "league/oauth2-github": "^2.0"
             },
             "type": "drupal-module",
             "extra": {
@@ -2523,67 +2463,7 @@
                     "datestamp": "1503644645",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Getulio Valentin Sánchez (gvso)",
-                    "homepage": "https://www.drupal.org/user/3509455",
-                    "email": "valentin2507@gmail.com"
-                },
-                {
-                    "name": "Himanshu Dixit (himanshu-dixit)",
-                    "homepage": "https://www.drupal.org/user/3513954",
-                    "email": "hudixt@gmail.com"
-                }
-            ],
-            "description": "Social Auth integration for Drupal.",
-            "homepage": "https://www.drupal.org/project/social_auth_drupal",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/social_auth_drupal",
-                "issues": "https://www.drupal.org/project/issues/social_auth_drupal"
-            },
-            "time": "2018-02-19T18:31:47+00:00"
-        },
-        {
-            "name": "drupal/social_auth_github",
-            "version": "2.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/social_auth_github",
-                "reference": "8.x-2.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth_github-8.x-2.0-beta1.zip",
-                "reference": "8.x-2.0-beta1",
-                "shasum": "34e704661a4afbf318d3413a836734e8b67d596b"
-            },
-            "require": {
-                "drupal/core": "~8.0",
-                "drupal/social_auth": "^2",
-                "league/oauth2-github": "^2.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-2.x": "2.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-2.0-beta1",
-                    "datestamp": "1519179184",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2615,38 +2495,39 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/social_auth_github",
                 "issues": "https://www.drupal.org/project/issues/social_auth_github"
-            }
+            },
+            "time": "2017-08-24T07:18:36+00:00"
         },
         {
-            "name": "drupal/social_auth_linkedin",
-            "version": "2.0.0-beta1",
+            "name": "drupal/social_auth_google",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/social_auth_linkedin",
-                "reference": "8.x-2.0-beta1"
+                "url": "https://git.drupal.org/project/social_auth_google",
+                "reference": "8.x-1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth_linkedin-8.x-2.0-beta1.zip",
-                "reference": "8.x-2.0-beta1",
-                "shasum": "94210d618cf2c1b21af8b77f886b2e26a3351de3"
+                "url": "https://ftp.drupal.org/files/projects/social_auth_google-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "050f42b995aa63b77dcb22a145ff59fec0889e00"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "drupal/social_auth": "^2",
-                "league/oauth2-linkedin": "^2.0"
+                "drupal/social_auth": "*",
+                "google/apiclient": "~2.0"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-beta1",
-                    "datestamp": "1519178584",
+                    "version": "8.x-1.0",
+                    "datestamp": "1501780143",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2657,59 +2538,103 @@
             "authors": [
                 {
                     "name": "Getulio Valentin Sánchez (gvso)",
-                    "homepage": "https://www.drupal.org/user/2759063",
-                    "email": "valentin2507@gmail.com"
-                },
-                {
-                    "name": "Himanshu Dixit (himanshu-dixit)",
                     "homepage": "https://www.drupal.org/user/3101285",
-                    "email": "hudixt@gmail.com"
+                    "email": "valentin2507@gmail.com"
                 },
                 {
                     "name": "himanshu-dixit",
                     "homepage": "https://www.drupal.org/user/3513954"
                 }
             ],
-            "description": "Social Auth integration for LinkedIn.",
+            "description": "Social Auth integration for Google",
+            "homepage": "https://www.drupal.org/project/social_auth_google",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/social_auth_google",
+                "issues": "https://www.drupal.org/project/issues/social_auth_google"
+            }
+        },
+        {
+            "name": "drupal/social_auth_linkedin",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/social_auth_linkedin",
+                "reference": "d7d1c917be128831be8c2797113be795447ad2a1"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/social_auth": "*",
+                "linkedinapi/linkedin": "~1.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1496331843",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "adrianghe",
+                    "homepage": "https://www.drupal.org/user/2759063"
+                },
+                {
+                    "name": "gvso",
+                    "homepage": "https://www.drupal.org/user/3101285"
+                },
+                {
+                    "name": "himanshu-dixit",
+                    "homepage": "https://www.drupal.org/user/3513954"
+                }
+            ],
+            "description": "Social Auth integration for LinkedIn",
             "homepage": "https://www.drupal.org/project/social_auth_linkedin",
             "keywords": [
                 "Drupal"
             ],
             "support": {
-                "source": "http://cgit.drupalcode.org/social_auth_linkedin",
-                "issues": "https://www.drupal.org/project/issues/social_auth_linkedin"
-            }
+                "source": "http://cgit.drupalcode.org/social_auth_linkedin"
+            },
+            "time": "2017-06-01T15:40:27+00:00"
         },
         {
             "name": "drupal/social_auth_microsoft",
-            "version": "2.0.0-alpha1",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/social_auth_microsoft",
-                "reference": "8.x-2.0-alpha1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth_microsoft-8.x-2.0-alpha1.zip",
-                "reference": "8.x-2.0-alpha1",
-                "shasum": "ece2c182fdabf8bf8b638c73bf082010d22d18e2"
+                "reference": "f3c9062c1c5dc3b4272923da0a39eb8de2b55a97"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "drupal/social_auth": "^2",
+                "drupal/social_auth": "*",
                 "stevenmaguire/oauth2-microsoft": "^2.0"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1",
-                    "datestamp": "1521057484",
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1503644645",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2741,21 +2666,83 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/social_auth_microsoft",
                 "issues": "https://www.drupal.org/project/issues/social_auth_microsoft"
-            }
+            },
+            "time": "2017-08-24T07:22:54+00:00"
+        },
+        {
+            "name": "drupal/social_auth_twitter",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/social_auth_twitter",
+                "reference": "a8bbce83b614219e265676f4a30f6a443d8dd488"
+            },
+            "require": {
+                "abraham/twitteroauth": "0.*",
+                "drupal/core": "~8.0",
+                "drupal/social_auth": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1+3-dev",
+                    "datestamp": "1507430045",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Andriy Khomych",
+                    "homepage": "https://www.drupal.org/user/3287133",
+                    "email": "andriy.khomych@gmail.com"
+                },
+                {
+                    "name": "Getulio Valentin Sánchez (gvso)",
+                    "homepage": "https://www.drupal.org/user/3509455",
+                    "email": "valentin2507@gmail.com"
+                },
+                {
+                    "name": "Utkarsh Dixit (denutkarsh)",
+                    "homepage": "https://www.drupal.org/user/3510098",
+                    "email": "downloadplaza97@gmail.com"
+                },
+                {
+                    "name": "gvso",
+                    "homepage": "https://www.drupal.org/user/3101285"
+                },
+                {
+                    "name": "himanshu-dixit",
+                    "homepage": "https://www.drupal.org/user/3513954"
+                }
+            ],
+            "description": "Social Auth integration for Twitter",
+            "homepage": "https://www.drupal.org/sandbox/utkarsh-dixit/2841076",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/sandbox-utkarsh-dixit-2841076",
+                "issues": "https://www.drupal.org/project/issues/2841076"
+            },
+            "time": "2017-10-08T02:33:42+00:00"
         },
         {
             "name": "drupal/social_auth_wechat",
-            "version": "2.0.0-alpha1",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/social_auth_wechat",
-                "reference": "8.x-2.0-alpha1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_auth_wechat-8.x-2.0-alpha1.zip",
-                "reference": "8.x-2.0-alpha1",
-                "shasum": "d3f14282a8ee85b756be37f2376ef0854760fefc"
+                "reference": "e99dbb946d53dc6ea02be3f9f9a80beb24c4d918"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -2765,14 +2752,14 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha1",
-                    "datestamp": "1519956484",
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1514193184",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2794,54 +2781,53 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/social_auth_wechat",
                 "issues": "https://www.drupal.org/project/issues/social_auth_wechat"
-            }
+            },
+            "time": "2017-12-25T08:57:24+00:00"
         },
         {
             "name": "drupal/social_post",
-            "version": "2.0.0-beta2",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/social_post",
-                "reference": "8.x-2.0-beta2"
+                "reference": "8.x-1.0-alpha1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_post-8.x-2.0-beta2.zip",
-                "reference": "8.x-2.0-beta2",
-                "shasum": "2e011fe6985879030713191453adf5dba3eaa8b8"
+                "url": "https://ftp.drupal.org/files/projects/social_post-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "a630f749debbac1f1e6e4c6a33da9523af35d211"
             },
             "require": {
                 "drupal/core": "~8.0",
-                "drupal/social_api": "^2"
+                "drupal/social_api": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-beta2",
-                    "datestamp": "1520292180",
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1470409439",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
-                    "name": "Getulio Valentin Sánchez (gvso)",
-                    "homepage": "https://www.drupal.org/user/3510098",
-                    "email": "valentin2507@gmail.com"
+                    "name": "denutkarsh",
+                    "homepage": "https://www.drupal.org/user/3510098"
                 },
                 {
-                    "name": "Himansh Dixit (himanshu-dixit)",
-                    "homepage": "https://www.drupal.org/user/550110",
-                    "email": "hudixt@gmail.com"
+                    "name": "e0ipso",
+                    "homepage": "https://www.drupal.org/user/550110"
                 },
                 {
                     "name": "gvso",
@@ -2852,46 +2838,42 @@
                     "homepage": "https://www.drupal.org/user/3513954"
                 }
             ],
-            "description": "Social Post",
+            "description": "Allows posting content to different social networks automatically",
             "homepage": "https://www.drupal.org/project/social_post",
-            "keywords": [
-                "Drupal"
-            ],
             "support": {
-                "source": "http://cgit.drupalcode.org/social_post",
-                "issues": "https://www.drupal.org/project/issues/social_post"
+                "source": "http://cgit.drupalcode.org/social_post"
             }
         },
         {
             "name": "drupal/social_post_twitter",
-            "version": "2.0.0-alpha2",
+            "version": "1.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/social_post_twitter",
-                "reference": "8.x-2.0-alpha2"
+                "reference": "8.x-1.0-beta1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/social_post_twitter-8.x-2.0-alpha2.zip",
-                "reference": "8.x-2.0-alpha2",
-                "shasum": "cfc05528cbdc75410c963ef20c7b2dde8669dfe7"
+                "url": "https://ftp.drupal.org/files/projects/social_post_twitter-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "7d4b3f014fab4cec8b0d47bee1121014a9b218c7"
             },
             "require": {
-                "abraham/twitteroauth": "^0.7",
+                "abraham/twitteroauth": "0.*",
                 "drupal/core": "~8.0",
-                "drupal/social_post": "^2"
+                "drupal/social_post": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha2",
-                    "datestamp": "1520348285",
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1511632384",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -3134,6 +3116,195 @@
                 "validator"
             ],
             "time": "2017-02-03T22:48:59+00:00"
+        },
+        {
+            "name": "firebase/php-jwt",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "reference": "9984a4d3a32ae7673d6971ea00bae9d0a1abba0e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": " 4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "time": "2017-06-27T22:17:23+00:00"
+        },
+        {
+            "name": "google/apiclient",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "b69b8ac4bf6501793c389d4e013a79d09c85c5f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/b69b8ac4bf6501793c389d4e013a79d09c85c5f2",
+                "reference": "b69b8ac4bf6501793c389d4e013a79d09c85c5f2",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
+                "google/apiclient-services": "~0.13",
+                "google/auth": "^1.0",
+                "guzzlehttp/guzzle": "~5.3.1|~6.0",
+                "guzzlehttp/psr7": "^1.2",
+                "monolog/monolog": "^1.17",
+                "php": ">=5.4",
+                "phpseclib/phpseclib": "~0.3.10|~2.0"
+            },
+            "require-dev": {
+                "cache/filesystem-adapter": "^0.3.2",
+                "phpunit/phpunit": "~4",
+                "squizlabs/php_codesniffer": "~2.3",
+                "symfony/css-selector": "~2.1",
+                "symfony/dom-crawler": "~2.1"
+            },
+            "suggest": {
+                "cache/filesystem-adapter": "For caching certs and tokens (using Google_Client::setCache)"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Google_": "src/"
+                },
+                "classmap": [
+                    "src/Google/Service/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2017-11-03T01:19:53+00:00"
+        },
+        {
+            "name": "google/apiclient-services",
+            "version": "v0.60",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client-services.git",
+                "reference": "80404044884da8ed7e6fcbd4fa96e2ad7db46e94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/80404044884da8ed7e6fcbd4fa96e2ad7db46e94",
+                "reference": "80404044884da8ed7e6fcbd4fa96e2ad7db46e94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Google_Service_": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2018-05-19T00:23:51+00:00"
+        },
+        {
+            "name": "google/auth",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-auth-library-php.git",
+                "reference": "8f7c96146b2c62d3f4c6bbc4b5bb8a8e396b0b71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-auth-library-php/zipball/8f7c96146b2c62d3f4c6bbc4b5bb8a8e396b0b71",
+                "reference": "8f7c96146b2c62d3f4c6bbc4b5bb8a8e396b0b71",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
+                "guzzlehttp/guzzle": "~5.3.1|~6.0",
+                "guzzlehttp/psr7": "^1.2",
+                "php": ">=5.4",
+                "psr/cache": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.11",
+                "guzzlehttp/promises": "0.1.1|^1.3",
+                "phpunit/phpunit": "^4.8.36|^5.7",
+                "sebastian/comparator": ">=1.2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Google\\Auth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Google Auth Library for PHP",
+            "homepage": "http://github.com/google/google-auth-library-php",
+            "keywords": [
+                "Authentication",
+                "google",
+                "oauth2"
+            ],
+            "time": "2018-04-06T19:26:30+00:00"
         },
         {
             "name": "grasmash/expander",
@@ -3686,36 +3857,26 @@
             "time": "2017-01-26T01:14:51+00:00"
         },
         {
-            "name": "league/oauth2-linkedin",
-            "version": "2.1.0",
+            "name": "linkedinapi/linkedin",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thephpleague/oauth2-linkedin.git",
-                "reference": "c3c85da9b4c8db1eb02e35ff774fc2841c696217"
+                "url": "https://github.com/ashwinks/PHP-LinkedIn-SDK.git",
+                "reference": "7fa96885b99e9267b4ae5c0f463f5a550c47a66c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-linkedin/zipball/c3c85da9b4c8db1eb02e35ff774fc2841c696217",
-                "reference": "c3c85da9b4c8db1eb02e35ff774fc2841c696217",
+                "url": "https://api.github.com/repos/ashwinks/PHP-LinkedIn-SDK/zipball/7fa96885b99e9267b4ae5c0f463f5a550c47a66c",
+                "reference": "7fa96885b99e9267b4ae5c0f463f5a550c47a66c",
                 "shasum": ""
             },
             "require": {
-                "league/oauth2-client": "^2.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~2.0"
+                "php": ">=5.3.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
             "autoload": {
-                "psr-4": {
-                    "League\\OAuth2\\Client\\": "src/"
+                "psr-0": {
+                    "LinkedIn": "."
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3724,21 +3885,20 @@
             ],
             "authors": [
                 {
-                    "name": "Steven Maguire",
-                    "email": "stevenmaguire@gmail.com",
-                    "homepage": "https://github.com/stevenmaguire"
+                    "name": "Ashwin Surajbali",
+                    "email": "ashwin@redinkdesign.net",
+                    "homepage": "http://www.redinkdesign.co"
                 }
             ],
-            "description": "LinkedIn OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "description": "PHP LinkedIn SDK",
+            "homepage": "https://github.com/ashwinks/PHP-LinkedIn-SDK",
             "keywords": [
-                "authorisation",
-                "authorization",
-                "client",
+                "api",
+                "api client",
                 "linkedin",
-                "oauth",
-                "oauth2"
+                "rest"
             ],
-            "time": "2017-09-12T01:47:49+00:00"
+            "time": "2014-03-03T15:16:50+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -3804,6 +3964,84 @@
                 "xml"
             ],
             "time": "2017-09-04T12:26:28+00:00"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2017-06-19T01:22:40+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3953,6 +4191,144 @@
                 "random"
             ],
             "time": "2018-04-04T21:24:14+00:00"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "2.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7053f06f91b3de78e143d430e55a8f7889efc08b",
+                "reference": "7053f06f91b3de78e143d430e55a8f7889efc08b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
+                "sami/sami": "~2.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "suggest": {
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpseclib/bootstrap.php"
+                ],
+                "psr-4": {
+                    "phpseclib\\": "phpseclib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "time": "2018-04-15T16:55:05+00:00"
+        },
+        {
+            "name": "psr/cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/container",
@@ -8524,12 +8900,11 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/social_auth_drupal": 20,
-        "drupal/social_auth_github": 10,
-        "drupal/social_auth_linkedin": 10,
-        "drupal/social_auth_microsoft": 15,
-        "drupal/social_auth_wechat": 15,
-        "drupal/social_post": 10
+        "drupal/social_auth_github": 20,
+        "drupal/social_auth_linkedin": 20,
+        "drupal/social_auth_microsoft": 20,
+        "drupal/social_auth_wechat": 20,
+        "drupal/social_post_twitter": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

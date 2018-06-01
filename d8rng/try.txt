@@ -1,0 +1,20 @@
+composer create-project drupal-composer/drupal-project:8.x-dev d8rng --stability dev --no-interaction
+
+
+cd d8rng
+
+composer require drupal/admin_toolbar drupal/devel
+--composer require drupal/config_split drupal/config_update drupal/features
+
+
+composer require drupal/rng
+composer require drupal/veoa drupal/token drupal/views_advanced_routing
+
+composer require drupal/rng_quick drupal/rng_contact drupal/rng_date_scheduler  drupal/rng_conflict
+rng_contact
+composer require drupal/address drupal/name
+
+--https://github.com/dpi/identity
+
+
+composer require drupal/smsframework drupal/courier_sms

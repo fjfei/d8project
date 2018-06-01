@@ -1,0 +1,15 @@
+composer create-project drupal-composer/drupal-project:8.x-dev d8address --stability dev --no-interaction
+
+cd d8address
+
+composer require drupal/admin_toolbar drupal/devel
+--composer require drupal/config_split drupal/config_update drupal/features
+
+
+composer require drupal/commerce drupal/address_checkout
+
+composer require drupal/token drupal/address_phonenumber drupal/address_usps drupal/address_algolia
+
+composer require drupal/geofield drupal/geolocation_address_link
+
+composer require drupal/address_dawa drupal/china_address drupal/chinese_address drupal/normalize_address
